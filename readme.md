@@ -52,4 +52,4 @@ for graphs: graphs.ipynb
 produces graphs of the thesis.
 
 #### 7) Misc
-smart_cond_mod.py contains code for old tensorflow version that was used by STraTS an is necessary to run the experiments.
+smart_cond_mod.py contains code for old tensorflow version that was used by STraTS and is necessary to run the experiments.
