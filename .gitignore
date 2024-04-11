@@ -5,7 +5,6 @@ __pycache__
 *.pkl
 *.h5
 *.json
-*.pdf
 *.csv
 *.tsv
 *.bak
@@ -14,7 +13,6 @@ test*
 data
 err_python*
 out_python*
-*.png
 *.zip
 mimic-data-preprocessing/mimic-iii/physionet.org/.DS_Store
 mimic-data-preprocessing/mimic-iii/physionet.org/files/.DS_Store
