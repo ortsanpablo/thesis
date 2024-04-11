@@ -9,7 +9,9 @@ This repo provides code for:
 
 ## Requirements
 
+requirements.txt contains the requirements of the environment i used on my laptop.
 
+However, all experiments were conducted on bwUniCluster(https://uc2-jupyter.scc.kit.edu/jhub/hub/spawn), selecting 1 GPU and jupyter/tensorflow JupyterLab-Basemodule. (smart_cond_mod.py is also required on the cluster)
 
 ## How to use
 
@@ -34,6 +36,20 @@ This computes sentence bert embeddings, reduced to 50 dimensions and TF-IDF repr
 
 #### 4) Training
 
+*pre_train.ipynb files
+Models get saved in models folder.
+
 #### 5) Forecasting
 
+*forecasting.ipynb files
+Loads trained models and saves forecasts in 'Experiments/unseeded_models/forecasts'
+
 #### 6) Evaluation
+
+Evaluation*.ipynb files
+Loads forecasts and computes step error + mean step error.
+for graphs: graphs.ipynb
+produces graphs of the thesis.
+
+#### 7) Misc
+smart_cond_mod.py contains code for old tensorflow version that was used by STraTS an is necessary to run the experiments.
