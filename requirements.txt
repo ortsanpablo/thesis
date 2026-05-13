@@ -73,7 +73,7 @@ packaging==23.2
 pandas==2.0.3
 parso==0.8.3
 pexpect==4.9.0
-Pillow==10.1.0
+Pillow==12.2.0
 platformdirs==4.1.0
 preshed==3.0.9
 prompt-toolkit==3.0.41
