@@ -28,7 +28,7 @@ en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_
 exceptiongroup==1.2.0
 executing==2.0.1
 fancyimpute==0.5.5
-filelock==3.13.1
+filelock==3.20.3
 flatbuffers==23.5.26
 fonttools==4.46.0
 fsspec==2023.12.2
