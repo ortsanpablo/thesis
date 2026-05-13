@@ -135,6 +135,6 @@ urllib3==2.1.0
 wasabi==1.1.2
 wcwidth==0.2.12
 weasel==0.3.4
-Werkzeug==3.0.1
+Werkzeug==3.1.6
 wrapt==1.16.0
 zipp==3.17.0
